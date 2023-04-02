@@ -1,0 +1,38 @@
+.location{
+
+    &_container{
+        margin-top: 150px;
+    }
+    img{
+        width: 100%;
+    }
+    &_title{
+        text-align: center;
+        p{
+           margin-top: 20px;  
+           margin-bottom: 155px;  
+        }
+    }
+}
+
+@media (min-width: 200px){
+    .location_title{
+        padding: 0 20px;
+    }
+    .location{
+        img{
+            padding: 0 20px;
+        }
+    }
+}
+
+@media (min-width: 1100px){
+    .location_title{
+        padding: 0;
+    }
+    .location{
+        img{
+            padding: 0;
+        }
+    }
+}

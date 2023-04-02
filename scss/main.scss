@@ -1,0 +1,79 @@
+@import 'blocks/humburger/_hamburger';
+@import 'blocks/location/_location';
+@import 'blocks/header/_header';
+@import 'blocks/about/_about';
+@import 'blocks/features/_features';
+@import 'blocks/pricing/_pricing';
+@import 'blocks/testimonial/_testimonial';
+@import 'blocks/help/_help';
+@import 'blocks/footer/_footer';
+
+
+
+// variables
+
+:root{
+    --bg-color: #E5E5E5;
+    --btn-color: #F53838;
+    --primary-text-color: #0B132A;
+    --secondary-text-color:  #4F5665;
+    --font-family: 'Rubik';
+    --max-width: 1140px
+}
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background: var(--bg-color);
+}
+
+.container{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+
+.primary_text_style{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: var(--primary-text-color);
+}
+
+
+
+.secondary_text_style{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--secondary-text-color);
+}
+
+.btn_style{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.bold{
+    font-weight: bold;
+}
